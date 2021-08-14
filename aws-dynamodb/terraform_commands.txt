@@ -1,0 +1,7 @@
+terraform init -backend-config="region=ap-south-1"
+
+
+terraform plan -var region=ap-south-1
+
+
+terraform apply -var region=ap-south-1
